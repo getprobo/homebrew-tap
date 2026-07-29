@@ -4,28 +4,28 @@
 class Prb < Formula
   desc "Probo CLI"
   homepage "https://github.com/getprobo/probo"
-  version "0.205.0"
+  version "0.206.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/getprobo/probo/releases/download/prb/v0.205.0/prb_Darwin_arm64.tar.gz"
-      sha256 "24b3586dcac2c7f5f7793da024d9605da00e657f33b14c697f3f328ae9a9d855"
+      url "https://github.com/getprobo/probo/releases/download/prb/v0.206.0/prb_Darwin_arm64.tar.gz"
+      sha256 "b92235b852ae2ce43181693e963f2411d14fb1aa83f744ded75d38389b380127"
     end
     on_intel do
-      url "https://github.com/getprobo/probo/releases/download/prb/v0.205.0/prb_Darwin_x86_64.tar.gz"
-      sha256 "f200a3b3f95a0b69373ac6d7b8c01989ab3bd033e82ac213b887f56fac9e5c3b"
+      url "https://github.com/getprobo/probo/releases/download/prb/v0.206.0/prb_Darwin_x86_64.tar.gz"
+      sha256 "8e2a0baea930bdc7eac1739eedd04384fbee03a94b68512e0d94d9e204e19ef2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/getprobo/probo/releases/download/prb/v0.205.0/prb_Linux_arm64.tar.gz"
-      sha256 "ac0338c1842384d3606e92ac76ad449738aef39072fd2b8f631e3735392f8230"
+      url "https://github.com/getprobo/probo/releases/download/prb/v0.206.0/prb_Linux_arm64.tar.gz"
+      sha256 "6b6fae4cdf4f8422b2b3377c8bb65b6eeedee384e2c49ad362a08fb190ddfc5c"
     end
     on_intel do
-      url "https://github.com/getprobo/probo/releases/download/prb/v0.205.0/prb_Linux_x86_64.tar.gz"
-      sha256 "4c170b12090898b4c35c044ef461e6100287e30148d7fac30af20cfe093d74d1"
+      url "https://github.com/getprobo/probo/releases/download/prb/v0.206.0/prb_Linux_x86_64.tar.gz"
+      sha256 "1e1992261f9c904479727f10a7e2db107f157cac44a46d55b0904650bbdb5979"
     end
   end
 
